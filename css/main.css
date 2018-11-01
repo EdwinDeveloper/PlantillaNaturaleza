@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.crearfix {
+  float: none;
+  clear: both;
+}
+
+body {
+  background-image: url("../img/hojas.jpg");
+  background-attachment: fixed;
+}
+body #global {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 4px #ccc;
+}
+body #global header .logo {
+  font-family: "Verdana", "Arial";
+  font-size: 30px;
+  color: white;
+  letter-spacing: 4px;
+  line-height: 80px;
+  background: #235E3D;
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  float: left;
+}
+body #global header #menu {
+  font-family: Helvetica, Arial;
+  background: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+body #global header #menu ul {
+  line-height: 46px;
+  list-style: none;
+}
+body #global header #menu ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+body #global header #menu ul li:hover {
+  background: #235E3D;
+}
+body #global header #menu ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body #global #content #post {
+  padding: 9px;
+  width: 60%;
+  float: left;
+  font-family: Helvetica, Arial;
+}
+body #global #content #post h2 {
+  font-size: 30px;
+  color: #333;
+}
+body #global #content #post .date {
+  display: block;
+  color: gray;
+  margin-top: 5px;
+}
+body #global #content #post p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+body #global #content #post .button-more {
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  width: 85px;
+  padding: 15px;
+  background: #235E3D;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body #global #content #sidebar {
+  font-family: Helvetica, Arial;
+  width: 31%;
+  float: right;
+}
+body #global #content #sidebar h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url("../img/lines.png") repeat-x;
+}
+body #global #content #sidebar h4 span {
+  background-color: white;
+  padding: 5px;
+}
+body #global #content #sidebar img {
+  width: 100%;
+}
+body #global #content #sidebar p {
+  font-size: 15px;
+  text-align: justify;
+}
+body #global #content #sidebar form input {
+  padding: 5px;
+  border-radius: 2px;
+  border: solid 1px #ccc;
+  width: 80%;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px gray;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
