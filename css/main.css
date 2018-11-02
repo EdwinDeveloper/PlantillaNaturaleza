@@ -9,9 +9,34 @@
   clear: both;
 }
 
-body {
-  background-image: url("../img/hojas.jpg");
-  background-attachment: fixed;
+body #id-selector {
+  position: fixed;
+  top: 40%;
+  background: rgba(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+body #id-selector #to-red,
+body #id-selector #to-green,
+body #id-selector #to-blue {
+  display: block;
+  margin: 0 auto;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid 1px white;
+  cursor: pointer;
+}
+body #id-selector #to-red {
+  background-color: #CA3413;
+}
+body #id-selector #to-green {
+  background-color: #235E3D;
+}
+body #id-selector #to-blue {
+  background-color: #1F87C4;
 }
 body #global {
   width: 65%;
@@ -27,7 +52,6 @@ body #global header .logo {
   color: white;
   letter-spacing: 4px;
   line-height: 80px;
-  background: #235E3D;
   text-align: center;
   width: 385px;
   height: 80px;
@@ -49,9 +73,6 @@ body #global header #menu ul li {
   height: 46px;
   display: inline-block;
   transition: all 0.3s;
-}
-body #global header #menu ul li:hover {
-  background: #235E3D;
 }
 body #global header #menu ul li a {
   display: block;
@@ -87,7 +108,6 @@ body #global #content #post .button-more {
   display: block;
   width: 85px;
   padding: 15px;
-  background: #235E3D;
   color: white;
   text-decoration: none;
   margin-top: 10px;
@@ -125,6 +145,21 @@ body #global #content #sidebar form input {
   margin-bottom: 10px;
   box-shadow: 0px 0px 2px gray;
   margin-top: 5px;
+}
+body footer {
+  font-family: Helvetica, Arial;
+  color: white;
+  height: 47px;
+  background-color: rgba(51, 51, 51, 0.7);
+  margin: 0 auto;
+  width: 65%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 47px;
+}
+body footer #subir {
+  color: white;
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */

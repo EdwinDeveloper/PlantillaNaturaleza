@@ -1,0 +1,18 @@
+body {
+  background-image: url("../img/hojas.jpg");
+  background-attachment: fixed;
+}
+body .logo {
+  background: #235E3D;
+}
+body #menu {
+  background: #333;
+}
+body #menu ul li:hover {
+  background: #235E3D;
+}
+body #content #post .button-more {
+  background: #235E3D;
+}
+
+/*# sourceMappingURL=green.css.map */

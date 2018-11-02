@@ -1,0 +1,27 @@
+body{
+    $colorTheme:#CA3413;
+    background-image: url('../img/rojo.jpg');
+    background-attachment: fixed;
+    .logo{
+        background: $colorTheme;
+    }
+    #menu{
+        background: #333;
+        ul{
+            li{
+                &:hover{
+                     background: $colorTheme;
+                }
+               
+            }
+        }
+    }
+    #content{
+        #post{
+            .button-more{
+                background: $colorTheme;
+            }
+        }
+        
+    }
+}
