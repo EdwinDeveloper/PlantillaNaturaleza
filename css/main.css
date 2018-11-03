@@ -81,6 +81,65 @@ body #global header #menu ul li a {
   padding-left: 30px;
   padding-right: 30px;
 }
+body #global #content-about {
+  display: flex;
+  justify-content: space-around;
+}
+body #global #content-about #Reloj {
+  margin-top: 50px;
+  width: 300px;
+  height: 100px;
+  border: dashed 4px gray;
+  display: flex;
+}
+body #global #content-about #Reloj .reloj-content {
+  margin: auto auto;
+  font-family: Helvetica, Arial;
+  font-weight: bold;
+  font-size: 3rem;
+}
+body #global #content-about #box {
+  margin-top: 50px;
+  width: 65%;
+}
+body #global #content-about #box #acordeon {
+  width: 100%;
+}
+body #global #content-about #sidebar {
+  top: 0px;
+  font-family: Helvetica, Arial;
+  width: 31%;
+  float: right;
+  margin-left: 30px;
+}
+body #global #content-about #sidebar h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url("../img/lines.png") repeat-x;
+}
+body #global #content-about #sidebar h4 span {
+  background-color: white;
+  padding: 5px;
+}
+body #global #content-about #sidebar img {
+  width: 100%;
+}
+body #global #content-about #sidebar p {
+  font-size: 15px;
+  text-align: justify;
+}
+body #global #content-about #sidebar form input {
+  padding: 5px;
+  border-radius: 2px;
+  border: solid 1px #ccc;
+  width: 80%;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px gray;
+  margin-top: 5px;
+}
 body #global #content #post {
   padding: 9px;
   width: 60%;

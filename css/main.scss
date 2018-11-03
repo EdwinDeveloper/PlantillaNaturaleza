@@ -86,7 +86,70 @@ body{
                 }
             }
         }
+        #content-about{
+            display: flex;
+            justify-content: space-around;
+            #Reloj{
+                margin-top:50px;
+                width: 300px;
+                height: 100px;
+                border:dashed 4px gray;
+                display: flex;
+                
+                .reloj-content{
+                    margin: auto auto;
+                    font-family: Helvetica,Arial;
+                    font-weight: bold;
+                    font-size: 3rem;
+
+                }
+            }
+            #box{
+                margin-top:50px;
+                width: 65%;
+                #acordeon{
+                    width: 100%;
+                }
+            }
+            #sidebar{
+                top:0px;
+                font-family: Helvetica,Arial;
+                width: 31%;
+                float: right;
+                margin-left: 30px;
+                h4{
+                    margin-top:  50px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    line-height: 10px;
+                    color:#333;
+                    background: url('../img/lines.png') repeat-x;
+                    span{
+                        background-color: white;
+                        padding: 5px;
+                    }
+                }
+                img{
+                    width: 100%;
+                }
+                p{
+                    font-size: 15px;
+                    text-align: justify;
+                }
+                form input{
+                    padding: 5px;
+                    border-radius: 2px;
+                    border: solid 1px  #ccc;
+                    width: 80%;
+                    margin-bottom: 10px;
+                    box-shadow: 0px 0px 2px gray;
+                    margin-top: 5px;
+                }
+            }
+        }
         #content{
+            
+            
             #post{
                 padding: 9px;
                 width: 60%;
