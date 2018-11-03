@@ -89,6 +89,39 @@ body{
         #content-about{
             display: flex;
             justify-content: space-around;
+            #main-form{
+                width: 100%;
+                label{
+                    display: block;
+                    width: 60%;
+                    float: left;
+                    font-family: Helvetica,Arial;
+                    font-size: 1.2rem;
+                }
+                input,
+                select{
+                    float: left;
+                    width: 80%;
+                    height: 25px;
+                    margin-bottom: 10px;
+                    margin-left: 10px;
+                    border:solid 1px skyblue;
+                }
+                button{
+                    height: 40px;
+                    width: 80px;
+                    background-color: #1F87C4;
+                    margin-top:10px;
+                    float: left;
+                    cursor: pointer;
+                    color:white;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: skyblue;
+                    }
+                }
+            }
             #Reloj{
                 margin-top:50px;
                 width: 300px;

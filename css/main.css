@@ -85,6 +85,39 @@ body #global #content-about {
   display: flex;
   justify-content: space-around;
 }
+body #global #content-about #main-form {
+  width: 100%;
+}
+body #global #content-about #main-form label {
+  display: block;
+  width: 60%;
+  float: left;
+  font-family: Helvetica, Arial;
+  font-size: 1.2rem;
+}
+body #global #content-about #main-form input,
+body #global #content-about #main-form select {
+  float: left;
+  width: 80%;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: solid 1px skyblue;
+}
+body #global #content-about #main-form button {
+  height: 40px;
+  width: 80px;
+  background-color: #1F87C4;
+  margin-top: 10px;
+  float: left;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body #global #content-about #main-form button:hover {
+  background-color: skyblue;
+}
 body #global #content-about #Reloj {
   margin-top: 50px;
   width: 300px;

@@ -50,15 +50,15 @@
         <section id="content-about">
             <div class="post">
                 <h2>Contacto</h2>
-                <form action="">
+                <form action="" id="main-form" method="POST">
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre">
+                    <input type="text" name="nombre"><br>
 
                     <label for="lastName">Apellidos</label>
-                    <input type="text" name="lastName">
+                    <input type="text" name="lastName"><br>
 
                     <label for="email">Email</label>
-                    <input type="text" name="email">
+                    <input type="text" name="email"><br>
 
                     <label for="sexo">Sexo</label>
                     <select name="sexo" id="">
@@ -66,11 +66,13 @@
                         <option value="Mujer">Mujer</option>
                     </select>
 
-                    <label for="birthname">Fecha de Nacimiento</label>
-                    <input type="date">
+                    <label for="birthname" data-validation="date" data-validation-format="yyyy-mm-dd">Fecha de Nacimiento</label>
+                    <input type="date"><br>
 
                     <label for="edad">Edad</label>
-                    <input type="number" max="120">
+                    <input type="number" max="120" data-validation="number">
+                    <br>
+                    <button type="submit" id="boton">Aceptar</button>
                 </form>
             </div>
             <aside id="sidebar">
@@ -106,6 +108,9 @@
     </footer>
     <script src="js/jquey-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script src="js/momentes.js"></script>
     <script src="js/momentespanol.js"></script>
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>

@@ -103,6 +103,19 @@ $(document).ready(function(){
             $('.reloj-content').html(time);
         },1000);
     }
+    if(window.location.href.indexOf('contact') > -1){
+        $('#main-form').submit((e)=>{
+            //e.preventDefault();
+        });
+        $('form input[name="date"]').datepicker({
+            dateFormat:'dd-mm-yy'
+        });
+        $.validate({
+            lang: 'es',
+            errorMessagePosition:'top',
+            scrollToTopOnError:true
+          });
+    }
     // if(window.location.href.indexOf('index') > -1){
 
     // }
